@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA33FEBCEDCCE50A4FA92A3 /* Pods_iStrology_NotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22107B063B494E7391983E6 /* Pods_iStrology_NotificationExtension.framework */; };
+		841676211FB1856A00E9D339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841676201FB1856A00E9D339 /* AppDelegate.swift */; };
+		841676261FB1856A00E9D339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841676241FB1856A00E9D339 /* Main.storyboard */; };
+		841676281FB1856A00E9D339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841676271FB1856A00E9D339 /* Assets.xcassets */; };
+		8416762B1FB1856A00E9D339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841676291FB1856A00E9D339 /* LaunchScreen.storyboard */; };
+		841676361FB1856B00E9D339 /* iStrologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841676351FB1856B00E9D339 /* iStrologyTests.swift */; };
+		841676411FB1856B00E9D339 /* iStrologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841676401FB1856B00E9D339 /* iStrologyUITests.swift */; };
+		8416764F1FB185DB00E9D339 /* BirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416764E1FB185DB00E9D339 /* BirthdayVC.swift */; };
+		841676511FB1860800E9D339 /* NameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841676501FB1860800E9D339 /* NameVC.swift */; };
+		841676531FB1ED8300E9D339 /* HoroscopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841676521FB1ED8300E9D339 /* HoroscopeVC.swift */; };
+		841676551FB21E3700E9D339 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841676541FB21E3700E9D339 /* SettingVC.swift */; };
+		8416765A1FB22D8800E9D339 /* JTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841676581FB22D8700E9D339 /* JTChartView.m */; };
+		8416765C1FB22DBA00E9D339 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416765B1FB22DBA00E9D339 /* MainVC.swift */; };
+		848433111FBA06E6003E2A57 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848433101FBA06E6003E2A57 /* NotificationService.swift */; };
+		848433151FBA06E6003E2A57 /* NotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8484330E1FBA06E6003E2A57 /* NotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		848F6FEE1FB25B2D0065FA70 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F6FED1FB25B2D0065FA70 /* AppManager.swift */; };
+		84C36C1A1FBD3318009E6507 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C041FBD3318009E6507 /* IQNSArray+Sort.swift */; };
+		84C36C1B1FBD3318009E6507 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C051FBD3318009E6507 /* IQUIScrollView+Additions.swift */; };
+		84C36C1C1FBD3318009E6507 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C061FBD3318009E6507 /* IQUITextFieldView+Additions.swift */; };
+		84C36C1D1FBD3318009E6507 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C071FBD3318009E6507 /* IQUIView+Hierarchy.swift */; };
+		84C36C1E1FBD3318009E6507 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C081FBD3318009E6507 /* IQUIViewController+Additions.swift */; };
+		84C36C1F1FBD3318009E6507 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C091FBD3318009E6507 /* IQUIWindow+Hierarchy.swift */; };
+		84C36C201FBD3318009E6507 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C0B1FBD3318009E6507 /* IQKeyboardManagerConstants.swift */; };
+		84C36C211FBD3318009E6507 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C0C1FBD3318009E6507 /* IQKeyboardManagerConstantsInternal.swift */; };
+		84C36C221FBD3318009E6507 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C0D1FBD3318009E6507 /* IQKeyboardManager.swift */; };
+		84C36C231FBD3318009E6507 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C0F1FBD3318009E6507 /* IQKeyboardReturnKeyHandler.swift */; };
+		84C36C241FBD3318009E6507 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C111FBD3318009E6507 /* IQTextView.swift */; };
+		84C36C251FBD3318009E6507 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C131FBD3318009E6507 /* IQBarButtonItem.swift */; };
+		84C36C261FBD3318009E6507 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C141FBD3318009E6507 /* IQPreviousNextView.swift */; };
+		84C36C271FBD3318009E6507 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C151FBD3318009E6507 /* IQTitleBarButtonItem.swift */; };
+		84C36C281FBD3318009E6507 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C161FBD3318009E6507 /* IQToolbar.swift */; };
+		84C36C291FBD3318009E6507 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C36C171FBD3318009E6507 /* IQUIView+IQKeyboardToolbar.swift */; };
+		84C36C2A1FBD3318009E6507 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84C36C191FBD3318009E6507 /* IQKeyboardManager.bundle */; };
+		85D5220CECE0A5A601FD0BBE /* Pods_iStrologyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5DF46C4D5867FC8A8E8C97 /* Pods_iStrologyTests.framework */; };
+		C0E1E2E93EB501B667A89329 /* Pods_iStrologyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCCD7960B6A4BA8AEE321C1 /* Pods_iStrologyUITests.framework */; };
+		E3C64748ADD81F06F8CBDBE9 /* Pods_iStrology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D855C482539368594DB6B8B /* Pods_iStrology.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841676321FB1856B00E9D339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841676151FB1856A00E9D339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8416761C1FB1856A00E9D339;
+			remoteInfo = iStrology;
+		};
+		8416763D1FB1856B00E9D339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841676151FB1856A00E9D339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8416761C1FB1856A00E9D339;
+			remoteInfo = iStrology;
+		};
+		848433131FBA06E6003E2A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841676151FB1856A00E9D339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8484330D1FBA06E6003E2A57;
+			remoteInfo = NotificationExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		848433191FBA06E6003E2A57 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				848433151FBA06E6003E2A57 /* NotificationExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		271D0B655AD49677EDDA460B /* Pods-iStrology-NotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrology-NotificationExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iStrology-NotificationExtension/Pods-iStrology-NotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		31FEEB1F9F3D64595B806398 /* Pods-iStrologyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrologyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iStrologyTests/Pods-iStrologyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE25E4253BA43F667F673D9 /* Pods-iStrologyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrologyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iStrologyTests/Pods-iStrologyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5DF46C4D5867FC8A8E8C97 /* Pods_iStrologyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iStrologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B03535F0BC22C1672706839 /* Pods-iStrology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrology.release.xcconfig"; path = "Pods/Target Support Files/Pods-iStrology/Pods-iStrology.release.xcconfig"; sourceTree = "<group>"; };
+		7CEDF5625A07721590E5C2C8 /* Pods-iStrology-NotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrology-NotificationExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-iStrology-NotificationExtension/Pods-iStrology-NotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8416761D1FB1856A00E9D339 /* iStrology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iStrology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841676201FB1856A00E9D339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841676251FB1856A00E9D339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841676271FB1856A00E9D339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8416762A1FB1856A00E9D339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8416762C1FB1856B00E9D339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841676311FB1856B00E9D339 /* iStrologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStrologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841676351FB1856B00E9D339 /* iStrologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iStrologyTests.swift; sourceTree = "<group>"; };
+		841676371FB1856B00E9D339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8416763C1FB1856B00E9D339 /* iStrologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iStrologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841676401FB1856B00E9D339 /* iStrologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iStrologyUITests.swift; sourceTree = "<group>"; };
+		841676421FB1856B00E9D339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8416764E1FB185DB00E9D339 /* BirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayVC.swift; sourceTree = "<group>"; };
+		841676501FB1860800E9D339 /* NameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameVC.swift; sourceTree = "<group>"; };
+		841676521FB1ED8300E9D339 /* HoroscopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeVC.swift; sourceTree = "<group>"; };
+		841676541FB21E3700E9D339 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		841676571FB22D8700E9D339 /* iStrology-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iStrology-Bridging-Header.h"; sourceTree = "<group>"; };
+		841676581FB22D8700E9D339 /* JTChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTChartView.m; sourceTree = "<group>"; };
+		841676591FB22D8700E9D339 /* JTChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTChartView.h; sourceTree = "<group>"; };
+		8416765B1FB22DBA00E9D339 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8484330E1FBA06E6003E2A57 /* NotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		848433101FBA06E6003E2A57 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		848433121FBA06E6003E2A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F6FED1FB25B2D0065FA70 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		84C36C041FBD3318009E6507 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		84C36C051FBD3318009E6507 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		84C36C061FBD3318009E6507 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		84C36C071FBD3318009E6507 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		84C36C081FBD3318009E6507 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		84C36C091FBD3318009E6507 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		84C36C0B1FBD3318009E6507 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		84C36C0C1FBD3318009E6507 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		84C36C0D1FBD3318009E6507 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		84C36C0E1FBD3318009E6507 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		84C36C0F1FBD3318009E6507 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		84C36C111FBD3318009E6507 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		84C36C131FBD3318009E6507 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		84C36C141FBD3318009E6507 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		84C36C151FBD3318009E6507 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		84C36C161FBD3318009E6507 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		84C36C171FBD3318009E6507 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		84C36C191FBD3318009E6507 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		84CEAAA41FBC81AE004D44CD /* iStrology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iStrology.entitlements; sourceTree = "<group>"; };
+		8D855C482539368594DB6B8B /* Pods_iStrology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iStrology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2154792DAAF6A50B73F7300 /* Pods-iStrology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrology.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iStrology/Pods-iStrology.debug.xcconfig"; sourceTree = "<group>"; };
+		D3302F1CF8440CFE27E022C3 /* Pods-iStrologyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrologyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iStrologyUITests/Pods-iStrologyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCCCD7960B6A4BA8AEE321C1 /* Pods_iStrologyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iStrologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22107B063B494E7391983E6 /* Pods_iStrology_NotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iStrology_NotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C999299492CF7874882EC5 /* Pods-iStrologyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iStrologyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iStrologyUITests/Pods-iStrologyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8416761A1FB1856A00E9D339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C64748ADD81F06F8CBDBE9 /* Pods_iStrology.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416762E1FB1856B00E9D339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D5220CECE0A5A601FD0BBE /* Pods_iStrologyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841676391FB1856B00E9D339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E1E2E93EB501B667A89329 /* Pods_iStrologyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484330B1FBA06E6003E2A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA33FEBCEDCCE50A4FA92A3 /* Pods_iStrology_NotificationExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B05D2FDB3CAA378487D9935 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2154792DAAF6A50B73F7300 /* Pods-iStrology.debug.xcconfig */,
+				7B03535F0BC22C1672706839 /* Pods-iStrology.release.xcconfig */,
+				3CE25E4253BA43F667F673D9 /* Pods-iStrologyTests.debug.xcconfig */,
+				31FEEB1F9F3D64595B806398 /* Pods-iStrologyTests.release.xcconfig */,
+				F4C999299492CF7874882EC5 /* Pods-iStrologyUITests.debug.xcconfig */,
+				D3302F1CF8440CFE27E022C3 /* Pods-iStrologyUITests.release.xcconfig */,
+				271D0B655AD49677EDDA460B /* Pods-iStrology-NotificationExtension.debug.xcconfig */,
+				7CEDF5625A07721590E5C2C8 /* Pods-iStrology-NotificationExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841676141FB1856A00E9D339 = {
+			isa = PBXGroup;
+			children = (
+				8416761F1FB1856A00E9D339 /* iStrology */,
+				841676341FB1856B00E9D339 /* iStrologyTests */,
+				8416763F1FB1856B00E9D339 /* iStrologyUITests */,
+				8484330F1FBA06E6003E2A57 /* NotificationExtension */,
+				8416761E1FB1856A00E9D339 /* Products */,
+				2B05D2FDB3CAA378487D9935 /* Pods */,
+				9258E50B2B251125540DB65F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8416761E1FB1856A00E9D339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8416761D1FB1856A00E9D339 /* iStrology.app */,
+				841676311FB1856B00E9D339 /* iStrologyTests.xctest */,
+				8416763C1FB1856B00E9D339 /* iStrologyUITests.xctest */,
+				8484330E1FBA06E6003E2A57 /* NotificationExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8416761F1FB1856A00E9D339 /* iStrology */ = {
+			isa = PBXGroup;
+			children = (
+				84CEAAA41FBC81AE004D44CD /* iStrology.entitlements */,
+				84C36C021FBD3318009E6507 /* IQKeyboardManagerSwift */,
+				841676561FB22D5D00E9D339 /* JTChartView */,
+				841676201FB1856A00E9D339 /* AppDelegate.swift */,
+				848F6FED1FB25B2D0065FA70 /* AppManager.swift */,
+				8416764E1FB185DB00E9D339 /* BirthdayVC.swift */,
+				841676501FB1860800E9D339 /* NameVC.swift */,
+				841676521FB1ED8300E9D339 /* HoroscopeVC.swift */,
+				841676541FB21E3700E9D339 /* SettingVC.swift */,
+				8416765B1FB22DBA00E9D339 /* MainVC.swift */,
+				841676241FB1856A00E9D339 /* Main.storyboard */,
+				841676271FB1856A00E9D339 /* Assets.xcassets */,
+				841676291FB1856A00E9D339 /* LaunchScreen.storyboard */,
+				8416762C1FB1856B00E9D339 /* Info.plist */,
+			);
+			path = iStrology;
+			sourceTree = "<group>";
+		};
+		841676341FB1856B00E9D339 /* iStrologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				841676351FB1856B00E9D339 /* iStrologyTests.swift */,
+				841676371FB1856B00E9D339 /* Info.plist */,
+			);
+			path = iStrologyTests;
+			sourceTree = "<group>";
+		};
+		8416763F1FB1856B00E9D339 /* iStrologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841676401FB1856B00E9D339 /* iStrologyUITests.swift */,
+				841676421FB1856B00E9D339 /* Info.plist */,
+			);
+			path = iStrologyUITests;
+			sourceTree = "<group>";
+		};
+		841676561FB22D5D00E9D339 /* JTChartView */ = {
+			isa = PBXGroup;
+			children = (
+				841676591FB22D8700E9D339 /* JTChartView.h */,
+				841676581FB22D8700E9D339 /* JTChartView.m */,
+				841676571FB22D8700E9D339 /* iStrology-Bridging-Header.h */,
+			);
+			path = JTChartView;
+			sourceTree = "<group>";
+		};
+		8484330F1FBA06E6003E2A57 /* NotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				848433101FBA06E6003E2A57 /* NotificationService.swift */,
+				848433121FBA06E6003E2A57 /* Info.plist */,
+			);
+			path = NotificationExtension;
+			sourceTree = "<group>";
+		};
+		84C36C021FBD3318009E6507 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				84C36C031FBD3318009E6507 /* Categories */,
+				84C36C0A1FBD3318009E6507 /* Constants */,
+				84C36C0D1FBD3318009E6507 /* IQKeyboardManager.swift */,
+				84C36C0E1FBD3318009E6507 /* IQKeyboardManagerSwift.h */,
+				84C36C0F1FBD3318009E6507 /* IQKeyboardReturnKeyHandler.swift */,
+				84C36C101FBD3318009E6507 /* IQTextView */,
+				84C36C121FBD3318009E6507 /* IQToolbar */,
+				84C36C181FBD3318009E6507 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		84C36C031FBD3318009E6507 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				84C36C041FBD3318009E6507 /* IQNSArray+Sort.swift */,
+				84C36C051FBD3318009E6507 /* IQUIScrollView+Additions.swift */,
+				84C36C061FBD3318009E6507 /* IQUITextFieldView+Additions.swift */,
+				84C36C071FBD3318009E6507 /* IQUIView+Hierarchy.swift */,
+				84C36C081FBD3318009E6507 /* IQUIViewController+Additions.swift */,
+				84C36C091FBD3318009E6507 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		84C36C0A1FBD3318009E6507 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84C36C0B1FBD3318009E6507 /* IQKeyboardManagerConstants.swift */,
+				84C36C0C1FBD3318009E6507 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84C36C101FBD3318009E6507 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				84C36C111FBD3318009E6507 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		84C36C121FBD3318009E6507 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				84C36C131FBD3318009E6507 /* IQBarButtonItem.swift */,
+				84C36C141FBD3318009E6507 /* IQPreviousNextView.swift */,
+				84C36C151FBD3318009E6507 /* IQTitleBarButtonItem.swift */,
+				84C36C161FBD3318009E6507 /* IQToolbar.swift */,
+				84C36C171FBD3318009E6507 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		84C36C181FBD3318009E6507 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84C36C191FBD3318009E6507 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9258E50B2B251125540DB65F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D855C482539368594DB6B8B /* Pods_iStrology.framework */,
+				6E5DF46C4D5867FC8A8E8C97 /* Pods_iStrologyTests.framework */,
+				DCCCD7960B6A4BA8AEE321C1 /* Pods_iStrologyUITests.framework */,
+				E22107B063B494E7391983E6 /* Pods_iStrology_NotificationExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8416761C1FB1856A00E9D339 /* iStrology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841676451FB1856B00E9D339 /* Build configuration list for PBXNativeTarget "iStrology" */;
+			buildPhases = (
+				762D0E2A778FADBA85557866 /* [CP] Check Pods Manifest.lock */,
+				841676191FB1856A00E9D339 /* Sources */,
+				8416761A1FB1856A00E9D339 /* Frameworks */,
+				8416761B1FB1856A00E9D339 /* Resources */,
+				1193D8DF055CE5A75046A19F /* [CP] Embed Pods Frameworks */,
+				848433191FBA06E6003E2A57 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848433141FBA06E6003E2A57 /* PBXTargetDependency */,
+			);
+			name = iStrology;
+			productName = iStrology;
+			productReference = 8416761D1FB1856A00E9D339 /* iStrology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841676301FB1856B00E9D339 /* iStrologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841676481FB1856B00E9D339 /* Build configuration list for PBXNativeTarget "iStrologyTests" */;
+			buildPhases = (
+				5E3111BCD8ACA5A27D8CDEE0 /* [CP] Check Pods Manifest.lock */,
+				8416762D1FB1856B00E9D339 /* Sources */,
+				8416762E1FB1856B00E9D339 /* Frameworks */,
+				8416762F1FB1856B00E9D339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841676331FB1856B00E9D339 /* PBXTargetDependency */,
+			);
+			name = iStrologyTests;
+			productName = iStrologyTests;
+			productReference = 841676311FB1856B00E9D339 /* iStrologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8416763B1FB1856B00E9D339 /* iStrologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8416764B1FB1856B00E9D339 /* Build configuration list for PBXNativeTarget "iStrologyUITests" */;
+			buildPhases = (
+				C72E19770D9986971B8B5F47 /* [CP] Check Pods Manifest.lock */,
+				841676381FB1856B00E9D339 /* Sources */,
+				841676391FB1856B00E9D339 /* Frameworks */,
+				8416763A1FB1856B00E9D339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8416763E1FB1856B00E9D339 /* PBXTargetDependency */,
+			);
+			name = iStrologyUITests;
+			productName = iStrologyUITests;
+			productReference = 8416763C1FB1856B00E9D339 /* iStrologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8484330D1FBA06E6003E2A57 /* NotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848433181FBA06E6003E2A57 /* Build configuration list for PBXNativeTarget "NotificationExtension" */;
+			buildPhases = (
+				3D9001A49B5263B4E84D770C /* [CP] Check Pods Manifest.lock */,
+				8484330A1FBA06E6003E2A57 /* Sources */,
+				8484330B1FBA06E6003E2A57 /* Frameworks */,
+				8484330C1FBA06E6003E2A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationExtension;
+			productName = NotificationExtension;
+			productReference = 8484330E1FBA06E6003E2A57 /* NotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841676151FB1856A00E9D339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Han;
+				TargetAttributes = {
+					8416761C1FB1856A00E9D339 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					841676301FB1856B00E9D339 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8416761C1FB1856A00E9D339;
+					};
+					8416763B1FB1856B00E9D339 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8416761C1FB1856A00E9D339;
+					};
+					8484330D1FBA06E6003E2A57 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 841676181FB1856A00E9D339 /* Build configuration list for PBXProject "iStrology" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841676141FB1856A00E9D339;
+			productRefGroup = 8416761E1FB1856A00E9D339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8416761C1FB1856A00E9D339 /* iStrology */,
+				841676301FB1856B00E9D339 /* iStrologyTests */,
+				8416763B1FB1856B00E9D339 /* iStrologyUITests */,
+				8484330D1FBA06E6003E2A57 /* NotificationExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8416761B1FB1856A00E9D339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8416762B1FB1856A00E9D339 /* LaunchScreen.storyboard in Resources */,
+				841676281FB1856A00E9D339 /* Assets.xcassets in Resources */,
+				84C36C2A1FBD3318009E6507 /* IQKeyboardManager.bundle in Resources */,
+				841676261FB1856A00E9D339 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416762F1FB1856B00E9D339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416763A1FB1856B00E9D339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484330C1FBA06E6003E2A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1193D8DF055CE5A75046A19F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iStrology/Pods-iStrology-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CircleProgressView/CircleProgressView.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iStrology/Pods-iStrology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D9001A49B5263B4E84D770C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iStrology-NotificationExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3111BCD8ACA5A27D8CDEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iStrologyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762D0E2A778FADBA85557866 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iStrology-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C72E19770D9986971B8B5F47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iStrologyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841676191FB1856A00E9D339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841676511FB1860800E9D339 /* NameVC.swift in Sources */,
+				841676211FB1856A00E9D339 /* AppDelegate.swift in Sources */,
+				84C36C261FBD3318009E6507 /* IQPreviousNextView.swift in Sources */,
+				84C36C271FBD3318009E6507 /* IQTitleBarButtonItem.swift in Sources */,
+				841676551FB21E3700E9D339 /* SettingVC.swift in Sources */,
+				84C36C211FBD3318009E6507 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				84C36C291FBD3318009E6507 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				84C36C1B1FBD3318009E6507 /* IQUIScrollView+Additions.swift in Sources */,
+				84C36C1D1FBD3318009E6507 /* IQUIView+Hierarchy.swift in Sources */,
+				84C36C281FBD3318009E6507 /* IQToolbar.swift in Sources */,
+				8416765A1FB22D8800E9D339 /* JTChartView.m in Sources */,
+				84C36C1E1FBD3318009E6507 /* IQUIViewController+Additions.swift in Sources */,
+				84C36C231FBD3318009E6507 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				84C36C1C1FBD3318009E6507 /* IQUITextFieldView+Additions.swift in Sources */,
+				8416764F1FB185DB00E9D339 /* BirthdayVC.swift in Sources */,
+				841676531FB1ED8300E9D339 /* HoroscopeVC.swift in Sources */,
+				84C36C221FBD3318009E6507 /* IQKeyboardManager.swift in Sources */,
+				8416765C1FB22DBA00E9D339 /* MainVC.swift in Sources */,
+				84C36C251FBD3318009E6507 /* IQBarButtonItem.swift in Sources */,
+				848F6FEE1FB25B2D0065FA70 /* AppManager.swift in Sources */,
+				84C36C1A1FBD3318009E6507 /* IQNSArray+Sort.swift in Sources */,
+				84C36C201FBD3318009E6507 /* IQKeyboardManagerConstants.swift in Sources */,
+				84C36C241FBD3318009E6507 /* IQTextView.swift in Sources */,
+				84C36C1F1FBD3318009E6507 /* IQUIWindow+Hierarchy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416762D1FB1856B00E9D339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841676361FB1856B00E9D339 /* iStrologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841676381FB1856B00E9D339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841676411FB1856B00E9D339 /* iStrologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8484330A1FBA06E6003E2A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848433111FBA06E6003E2A57 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841676331FB1856B00E9D339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8416761C1FB1856A00E9D339 /* iStrology */;
+			targetProxy = 841676321FB1856B00E9D339 /* PBXContainerItemProxy */;
+		};
+		8416763E1FB1856B00E9D339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8416761C1FB1856A00E9D339 /* iStrology */;
+			targetProxy = 8416763D1FB1856B00E9D339 /* PBXContainerItemProxy */;
+		};
+		848433141FBA06E6003E2A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8484330D1FBA06E6003E2A57 /* NotificationExtension */;
+			targetProxy = 848433131FBA06E6003E2A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841676241FB1856A00E9D339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841676251FB1856A00E9D339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841676291FB1856A00E9D339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8416762A1FB1856A00E9D339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841676431FB1856B00E9D339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841676441FB1856B00E9D339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841676461FB1856B00E9D339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2154792DAAF6A50B73F7300 /* Pods-iStrology.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iStrology/iStrology.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWM3YHXCKQ;
+				INFOPLIST_FILE = iStrology/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toms.istrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iStrology/JTChartView/iStrology-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841676471FB1856B00E9D339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B03535F0BC22C1672706839 /* Pods-iStrology.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iStrology/iStrology.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWM3YHXCKQ;
+				INFOPLIST_FILE = iStrology/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toms.istrology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iStrology/JTChartView/iStrology-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		841676491FB1856B00E9D339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE25E4253BA43F667F673D9 /* Pods-iStrologyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q8M5B34M;
+				INFOPLIST_FILE = iStrologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Han.iStrologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iStrology.app/iStrology";
+			};
+			name = Debug;
+		};
+		8416764A1FB1856B00E9D339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FEEB1F9F3D64595B806398 /* Pods-iStrologyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q8M5B34M;
+				INFOPLIST_FILE = iStrologyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Han.iStrologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iStrology.app/iStrology";
+			};
+			name = Release;
+		};
+		8416764C1FB1856B00E9D339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C999299492CF7874882EC5 /* Pods-iStrologyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q8M5B34M;
+				INFOPLIST_FILE = iStrologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Han.iStrologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iStrology;
+			};
+			name = Debug;
+		};
+		8416764D1FB1856B00E9D339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3302F1CF8440CFE27E022C3 /* Pods-iStrologyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38Q8M5B34M;
+				INFOPLIST_FILE = iStrologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Han.iStrologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iStrology;
+			};
+			name = Release;
+		};
+		848433161FBA06E6003E2A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271D0B655AD49677EDDA460B /* Pods-iStrology-NotificationExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWM3YHXCKQ;
+				INFOPLIST_FILE = NotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toms.istrology.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848433171FBA06E6003E2A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEDF5625A07721590E5C2C8 /* Pods-iStrology-NotificationExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWM3YHXCKQ;
+				INFOPLIST_FILE = NotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toms.istrology.extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841676181FB1856A00E9D339 /* Build configuration list for PBXProject "iStrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841676431FB1856B00E9D339 /* Debug */,
+				841676441FB1856B00E9D339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841676451FB1856B00E9D339 /* Build configuration list for PBXNativeTarget "iStrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841676461FB1856B00E9D339 /* Debug */,
+				841676471FB1856B00E9D339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841676481FB1856B00E9D339 /* Build configuration list for PBXNativeTarget "iStrologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841676491FB1856B00E9D339 /* Debug */,
+				8416764A1FB1856B00E9D339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8416764B1FB1856B00E9D339 /* Build configuration list for PBXNativeTarget "iStrologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8416764C1FB1856B00E9D339 /* Debug */,
+				8416764D1FB1856B00E9D339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848433181FBA06E6003E2A57 /* Build configuration list for PBXNativeTarget "NotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848433161FBA06E6003E2A57 /* Debug */,
+				848433171FBA06E6003E2A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841676151FB1856A00E9D339 /* Project object */;
+}

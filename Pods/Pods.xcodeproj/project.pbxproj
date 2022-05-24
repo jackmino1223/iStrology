@@ -1,0 +1,1912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 09A5A4D585F2B2C7D977A4F1E5213117 /* Build configuration list for PBXAggregateTarget "OneSignal" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = OneSignal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D668FF9F7F1648EBFE5CBA6F7A48678 /* MBProgressHUD.m */; };
+		03457159F90920CE9C1C5A36AF7B00EA /* CircleProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C28ACAE58C37ECAC00B7A3505F0ECE /* CircleProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		102AE89E49C261CD6E9712FEE8EF2698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		109467F0815F6D20604B6F24DB0815D9 /* Pods-iStrology-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 519FB045C6194F307BC7C943FFFCA845 /* Pods-iStrology-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9947D27EDD848FACA1A9954CB2657FA /* TaskDelegate.swift */; };
+		13277BD0E9FC3EFDF1145AF4534CBB21 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF4241AF5BD1202236D3444F51660 /* SKProduct+LocalizedPrice.swift */; };
+		1CE8B385C42AB5938257FBEC6DF281CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C742BEAE4989E82571E7E47EC3A4CA7D /* Timeline.swift */; };
+		335BF966F9C1E53767DC12FBAFB4FC9D /* Pods-iStrology-NotificationExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8276A87C7496C15BA180ECD16F0DDE0B /* Pods-iStrology-NotificationExtension-dummy.m */; };
+		36B3BEFB765D490CE5E8B140FC85C3C5 /* CompleteTransactionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A858DD1CE7226624CA7C6DE4BAB391 /* CompleteTransactionsController.swift */; };
+		395FDD89B2909C11AD52E0A3F659C7BE /* RestorePurchasesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8555FCE0571D0B77A2FF0865B2DD3 /* RestorePurchasesController.swift */; };
+		3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF22AF31B38FB6F25403BA24CDB4E33 /* ServerTrustPolicy.swift */; };
+		3ED42AF7ECDCA0098008C03E518584E9 /* ProductsInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907180B5FEF7C687A640DF01DD3928E8 /* ProductsInfoController.swift */; };
+		43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD7B73910B7EA80430EE177FE90054 /* ResponseSerialization.swift */; };
+		4A0A8C72F73B1045ADD25007B93195F6 /* SwiftyStoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F999097E48336B9D09F1DF2451E1AD36 /* SwiftyStoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AAD229760BF932C5551F38A5D80C94C /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18FDD57C93AEF5AC94529FAEF62E3F1 /* CircleProgressView.swift */; };
+		4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655BE05D1EECADE1CFC4E1696307B1FE /* Validation.swift */; };
+		5268AFA339208EF75CE21A39E9C8B88D /* InAppReceiptRefreshRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892D3F63F8770770A7D2EDD381F84586 /* InAppReceiptRefreshRequest.swift */; };
+		537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC32E6904D8337346A922AA74EB2E33 /* Notifications.swift */; };
+		58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434AE50CFF002F75FE74AD592F94D5B /* MBProgressHUD-dummy.m */; };
+		5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5164D9B927682584AF2D8ECF9368279F /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F8026C464587AF1152559F88FA2354 /* NetworkReachabilityManager.swift */; };
+		5FFC3C0541F165CD599AAE2D181E27C8 /* PaymentQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6DB1A292C2133F831E2DAD95A8192 /* PaymentQueueController.swift */; };
+		661DE8075564A8DA798D04183A113699 /* SwiftyStoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D092E41F467B0181E407AC1F442BCC06 /* SwiftyStoreKit.swift */; };
+		67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEA5FCC46C3AF65AA0A63C0918CC666 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		6D933CC30D81FDEC59CC44A125A4BABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BEE07C3152EDA31290BCE4C8CF2969 /* MultipartFormData.swift */; };
+		70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D62DFA5693CC58E7BDF568A55A8CD9B /* Alamofire.swift */; };
+		7DC655E17AC2CDA07F005293446E23B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC500CBE974C5072E7F02360B97B104 /* SessionManager.swift */; };
+		80F46F3E71FB05AA64767702F85AC320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		813F1ED13D12ED4994B174D5B0A66272 /* SwiftyStoreKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DEBA93BC76DDECD76D875C1A8B7DBC /* SwiftyStoreKit-dummy.m */; };
+		847D1FEC4A49805DE24A976F2F9A083E /* InAppProductQueryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFDD07DFA26782A458CA0258A3BB8F6 /* InAppProductQueryRequest.swift */; };
+		85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FD2AEE697D50876CCEEFA1533D45F8 /* SessionDelegate.swift */; };
+		8ED0E02C02266CD95B4EDC31E71C7329 /* InAppReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954CB4D021554DDAFBE9EA8388BE0AD2 /* InAppReceipt.swift */; };
+		90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D27106D6EDFB78F827424D7D27F489 /* AFError.swift */; };
+		9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA16235027B435885E5180E595A7A34 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97245618EEBC97E6D0F91F7FFEFB78F8 /* Pods-iStrology-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454DDE07D60AA5F396A714880B28BDD5 /* Pods-iStrology-dummy.m */; };
+		99D04013060B6EC7C4114C3B5CB6D538 /* Pods-iStrologyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0DF96F29A9344A210794E12D627D7D8 /* Pods-iStrologyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8529EF9C2932162CC7C5D7F1DBB5D68 /* Response.swift */; };
+		A967303296E88A4195A0592A4A049D2D /* Pods-iStrologyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E9D4C14F00BCF66270A10AFF271158 /* Pods-iStrologyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */; };
+		B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */; };
+		BD75C3288D5EE558203850C2ED0EEB3C /* Pods-iStrology-NotificationExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BFFD4EAED6C263C4CE72A9A250B1D2 /* Pods-iStrology-NotificationExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C078BC80802C909FA7C84E20E9561CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71116A1C656A3D32B7AD3D34087D66B0 /* AppDelegate.swift */; };
+		C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BDA64122D85639843D794065201145 /* Alamofire-dummy.m */; };
+		CBB48A7ECEE753D02835F1CF14E4A9A1 /* CircleProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BE9717D9F644D548F5DE8BDEF0EB5F /* CircleProgressView-dummy.m */; };
+		CCDEAE3D8171D800F35C367870CD29A0 /* InAppReceiptVerificator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4DC28AD2FB78A5D84CCA70E6F59308 /* InAppReceiptVerificator.swift */; };
+		CE509783B36EFD1F32B04E1E69D0F31A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A09F208500575F2D3A7129F0D8C5C /* ViewController.swift */; };
+		CEB9B3651D1633C303BDB6F666F97774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */; };
+		D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AB496FC2A3EF1E242B86DFEB0EA74A /* Result.swift */; };
+		D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BD5A520E5C09A83573D6D5FF3095DF /* Request.swift */; };
+		D62CEF072233B3972923D3A9AA2EC451 /* Pods-iStrologyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA75675A45B63E2943A775C234538154 /* Pods-iStrologyUITests-dummy.m */; };
+		D83C6F4B65517D50C39D1B4F142B31DC /* Pods-iStrologyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AE86D3A9CBCE333B70EB4BFF051E94 /* Pods-iStrologyTests-dummy.m */; };
+		D8D3B94498B315CE8090F2C1F6F3932B /* SwiftyStoreKit+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4AF204DCDF8AC0B22B3228E74FB12 /* SwiftyStoreKit+Types.swift */; };
+		DEA3A95AC3B2A4D9FB36F9DDA3652306 /* AppleReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876FF2F45E74AA4529E2F3B7D995677A /* AppleReceiptValidator.swift */; };
+		DF1BE048FB485B80B6148629E2149676 /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0513EDF7EBC05167C66E225D88F02DE4 /* OS.swift */; };
+		E7710C7A69A82854383E4BB80C2E6B03 /* PaymentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE80C1E9DD0DAA4146B2E07CEBF941FB /* PaymentsController.swift */; };
+		F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237DE50022BFD0DC9ED031061BB0C74D /* ParameterEncoding.swift */; };
+		F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A879BD8FA40834341031412C732FC9 /* DispatchQueue+Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234008D205C42AF5EF137E1AF9A20934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210EB05CEC7AD9C148F90F752DE74C48;
+			remoteInfo = OneSignal;
+		};
+		26B0722E941C2A0D8DFF1B435212126A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210EB05CEC7AD9C148F90F752DE74C48;
+			remoteInfo = OneSignal;
+		};
+		35A7C78CC8E4B1EAA4CB9E6ECE15B48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4949F2E81928B23F0DBD7CBD4C7FAD08;
+			remoteInfo = CircleProgressView;
+		};
+		474EB73EA21715F00E5ACCE798B397EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3E15571FBCDA6C3F9C39DAF36CF309;
+			remoteInfo = "Pods-iStrology";
+		};
+		4B3B66D5CB57C0EFC342F1585EC56896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD4F1901DD86FEB184BFDD6673F4A7B;
+			remoteInfo = SwiftyStoreKit;
+		};
+		5E2437D9E23C5A361C545C61D285E610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		7A44D718BF1237BC600D1306500970F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3E15571FBCDA6C3F9C39DAF36CF309;
+			remoteInfo = "Pods-iStrology";
+		};
+		8402426BA0BDB3E81844BC8B669A2197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		8A724D1164DE0E5BF9FB02B43E8DEA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		BD528CB0E6543AEC9ECB6492923CEBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		E35C02C16286574C9B22A8DB29C0A48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD4F1901DD86FEB184BFDD6673F4A7B;
+			remoteInfo = SwiftyStoreKit;
+		};
+		F7B76EC8607404C0E2425E9A15133BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4949F2E81928B23F0DBD7CBD4C7FAD08;
+			remoteInfo = CircleProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014A09F208500575F2D3A7129F0D8C5C /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CircleProgressView/ViewController.swift; sourceTree = "<group>"; };
+		01BB34D06163BAF1FD1E722114846ABB /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		01BFFD4EAED6C263C4CE72A9A250B1D2 /* Pods-iStrology-NotificationExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iStrology-NotificationExtension-umbrella.h"; sourceTree = "<group>"; };
+		0513EDF7EBC05167C66E225D88F02DE4 /* OS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OS.swift; path = SwiftyStoreKit/OS.swift; sourceTree = "<group>"; };
+		075BD7B12F317FFC21BADA570E3B6C12 /* CircleProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgressView.modulemap; sourceTree = "<group>"; };
+		08AE86D3A9CBCE333B70EB4BFF051E94 /* Pods-iStrologyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iStrologyTests-dummy.m"; sourceTree = "<group>"; };
+		08F8555FCE0571D0B77A2FF0865B2DD3 /* RestorePurchasesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestorePurchasesController.swift; path = SwiftyStoreKit/RestorePurchasesController.swift; sourceTree = "<group>"; };
+		09A4FBA36ECB6573670E17E6789A5947 /* SwiftyStoreKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyStoreKit-Info.plist"; sourceTree = "<group>"; };
+		09F57783D4BD2DD990E448B1967EF56D /* Pods-iStrology-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrology-Info.plist"; sourceTree = "<group>"; };
+		0ACF9A7B8B0BB029340D1A3EF425382B /* SwiftyStoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.release.xcconfig; sourceTree = "<group>"; };
+		13BE9717D9F644D548F5DE8BDEF0EB5F /* CircleProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressView-dummy.m"; sourceTree = "<group>"; };
+		180DD5D6FD70EB430249EFE5779D5104 /* SwiftyStoreKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-prefix.pch"; sourceTree = "<group>"; };
+		18B607B7907E1665FA0079E59CC8DAB0 /* Pods-iStrology-NotificationExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrology-NotificationExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		18C7660B3D6ACF500B932A55CC65346B /* SwiftyStoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyStoreKit.debug.xcconfig; sourceTree = "<group>"; };
+		19C28ACAE58C37ECAC00B7A3505F0ECE /* CircleProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-umbrella.h"; sourceTree = "<group>"; };
+		19E2AB90002D10B0FA51CF999FCD93F8 /* Pods-iStrology.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iStrology.modulemap"; sourceTree = "<group>"; };
+		1BC500CBE974C5072E7F02360B97B104 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		1D62DFA5693CC58E7BDF568A55A8CD9B /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		222AF4241AF5BD1202236D3444F51660 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProduct+LocalizedPrice.swift"; path = "SwiftyStoreKit/SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
+		23129CEF8DFA85DE3B1923510798AFBE /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		234E546C0CEE7DDAFECD3EB3E88C8960 /* Pods-iStrologyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrologyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		237DE50022BFD0DC9ED031061BB0C74D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		288FB6F43F57B701802211C742F00DDF /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		28D2A157FF19B1B02D26F028B7EC1D32 /* Pods-iStrology */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iStrology"; path = Pods_iStrology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyStoreKit; path = SwiftyStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FD7B73910B7EA80430EE177FE90054 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		3788466EB43DCA2C6E077F14E62D7975 /* Pods-iStrologyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrologyUITests-Info.plist"; sourceTree = "<group>"; };
+		3859D194254556ADEC3EC127E38C8B1F /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		38AB496FC2A3EF1E242B86DFEB0EA74A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		3A3A0BE616C805568A680D80C99A55AF /* CircleProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CircleProgressView-Info.plist"; sourceTree = "<group>"; };
+		3AF12FAF3623B935D47F946F3EF62498 /* Pods-iStrology-NotificationExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iStrology-NotificationExtension"; path = Pods_iStrology_NotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D27106D6EDFB78F827424D7D27F489 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		4236844FD2DE4FF2C851640B97FB4249 /* Pods-iStrology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrology.release.xcconfig"; sourceTree = "<group>"; };
+		44151C8665FE6D30E00ED998DD698AB2 /* Pods-iStrologyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrologyTests-Info.plist"; sourceTree = "<group>"; };
+		454DDE07D60AA5F396A714880B28BDD5 /* Pods-iStrology-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iStrology-dummy.m"; sourceTree = "<group>"; };
+		49DEBA93BC76DDECD76D875C1A8B7DBC /* SwiftyStoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyStoreKit-dummy.m"; sourceTree = "<group>"; };
+		4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgressView; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5164D9B927682584AF2D8ECF9368279F /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		519FB045C6194F307BC7C943FFFCA845 /* Pods-iStrology-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iStrology-umbrella.h"; sourceTree = "<group>"; };
+		51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5A4BF8E7663838384225D5A1E3D3E67B /* CircleProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-prefix.pch"; sourceTree = "<group>"; };
+		5B3856A760961603EE51C7D1F500CE55 /* Pods-iStrologyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iStrologyTests.modulemap"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E30DE5941FD19148C19677AAA9B4D75 /* Pods-iStrology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrology.debug.xcconfig"; sourceTree = "<group>"; };
+		6082D4E1D777BA6A37131D954F3EBEC3 /* Pods-iStrologyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iStrologyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		640549BE82DB5C0FE2312A49568D19C9 /* OneSignal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.debug.xcconfig; sourceTree = "<group>"; };
+		655BE05D1EECADE1CFC4E1696307B1FE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		66784221074498FC7F3ED362F53E9AF4 /* Pods-iStrology-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrology-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C610781230B1F5B1061F20DD194A007 /* Pods-iStrologyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrologyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		710D30446E957D0EB7BC2048D85D3B9B /* Pods-iStrologyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrologyTests.release.xcconfig"; sourceTree = "<group>"; };
+		71116A1C656A3D32B7AD3D34087D66B0 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CircleProgressView/AppDelegate.swift; sourceTree = "<group>"; };
+		7136AB1F413E8F5AEE49724DCFDEF86B /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		75BD5A520E5C09A83573D6D5FF3095DF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		8276A87C7496C15BA180ECD16F0DDE0B /* Pods-iStrology-NotificationExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iStrology-NotificationExtension-dummy.m"; sourceTree = "<group>"; };
+		871B766E1BB63D9D36F16152EC1B3462 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		876FF2F45E74AA4529E2F3B7D995677A /* AppleReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppleReceiptValidator.swift; path = SwiftyStoreKit/AppleReceiptValidator.swift; sourceTree = "<group>"; };
+		892D3F63F8770770A7D2EDD381F84586 /* InAppReceiptRefreshRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptRefreshRequest.swift; path = SwiftyStoreKit/InAppReceiptRefreshRequest.swift; sourceTree = "<group>"; };
+		89BD1231F1E31D422FA39BF714332DFE /* Pods-iStrology-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iStrology-frameworks.sh"; sourceTree = "<group>"; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD4AF204DCDF8AC0B22B3228E74FB12 /* SwiftyStoreKit+Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyStoreKit+Types.swift"; path = "SwiftyStoreKit/SwiftyStoreKit+Types.swift"; sourceTree = "<group>"; };
+		907180B5FEF7C687A640DF01DD3928E8 /* ProductsInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductsInfoController.swift; path = SwiftyStoreKit/ProductsInfoController.swift; sourceTree = "<group>"; };
+		91F8026C464587AF1152559F88FA2354 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		92C6420E2B8EE5C7FB50DF37EF8F4DB1 /* Pods-iStrology-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iStrology-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9434AE50CFF002F75FE74AD592F94D5B /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		954CB4D021554DDAFBE9EA8388BE0AD2 /* InAppReceipt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceipt.swift; path = SwiftyStoreKit/InAppReceipt.swift; sourceTree = "<group>"; };
+		96A858DD1CE7226624CA7C6DE4BAB391 /* CompleteTransactionsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompleteTransactionsController.swift; path = SwiftyStoreKit/CompleteTransactionsController.swift; sourceTree = "<group>"; };
+		9D668FF9F7F1648EBFE5CBA6F7A48678 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18FDD57C93AEF5AC94529FAEF62E3F1 /* CircleProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleProgressView.swift; path = CircleProgressView/CircleProgressView.swift; sourceTree = "<group>"; };
+		A47791137B102284DB322C120A0A523B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		AE80C1E9DD0DAA4146B2E07CEBF941FB /* PaymentsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentsController.swift; path = SwiftyStoreKit/PaymentsController.swift; sourceTree = "<group>"; };
+		AEA54F72E2B5798AAB7CFBA7874E0446 /* Pods-iStrology-NotificationExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrology-NotificationExtension-Info.plist"; sourceTree = "<group>"; };
+		AFEEC63CC35C6E6A437CDCAA9880220F /* CircleProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.debug.xcconfig; sourceTree = "<group>"; };
+		B0DA8EB51303B2EFEED69B4CA641ACDB /* Pods-iStrology-NotificationExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iStrology-NotificationExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B42DD36999C776494C50402ED518E271 /* Pods-iStrologyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrologyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B669E4ECDDC054016C87A70D4BAC5199 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		BA4DC28AD2FB78A5D84CCA70E6F59308 /* InAppReceiptVerificator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppReceiptVerificator.swift; path = SwiftyStoreKit/InAppReceiptVerificator.swift; sourceTree = "<group>"; };
+		BBA78BAED60F9056283F5368539C53DA /* Pods-iStrology-NotificationExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iStrology-NotificationExtension.modulemap"; sourceTree = "<group>"; };
+		BDB2CC60F6F4973347DE7F24CB75D785 /* Pods-iStrology-NotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrology-NotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		BF3644EECBF302B0305FEAFCA702FC44 /* Pods-iStrology-NotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrology-NotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		BFA16235027B435885E5180E595A7A34 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C01367F706FE2E38022633EDB4ECCCCC /* Pods-iStrologyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iStrologyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C17A755B18ACAEB0B502EB70DED1B38C /* OneSignal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSignal.release.xcconfig; sourceTree = "<group>"; };
+		C1E9D4C14F00BCF66270A10AFF271158 /* Pods-iStrologyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iStrologyTests-umbrella.h"; sourceTree = "<group>"; };
+		C742BEAE4989E82571E7E47EC3A4CA7D /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C8BDA64122D85639843D794065201145 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		CA75675A45B63E2943A775C234538154 /* Pods-iStrologyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iStrologyUITests-dummy.m"; sourceTree = "<group>"; };
+		CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBC32E6904D8337346A922AA74EB2E33 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		CFEA5FCC46C3AF65AA0A63C0918CC666 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D04F0FC00390F601AB124F4D36404B50 /* Pods-iStrologyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iStrologyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D092E41F467B0181E407AC1F442BCC06 /* SwiftyStoreKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyStoreKit.swift; path = SwiftyStoreKit/SwiftyStoreKit.swift; sourceTree = "<group>"; };
+		D1A879BD8FA40834341031412C732FC9 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		D301BB3E3035B1E53A549B0E118C7E2F /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		D48A525259C3487B19629A617A56654D /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		D4FD2AEE697D50876CCEEFA1533D45F8 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		D57F00C08D4D2743183E3ACF1923224F /* Pods-iStrologyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iStrologyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D60F40171290FA9DD6FBF9E7B2F7985C /* Pods-iStrologyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iStrologyTests"; path = Pods_iStrologyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF22AF31B38FB6F25403BA24CDB4E33 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		DC48DE986289DAC360E2F90115E2062A /* Pods-iStrologyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iStrologyUITests"; path = Pods_iStrologyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA6DB1A292C2133F831E2DAD95A8192 /* PaymentQueueController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentQueueController.swift; path = SwiftyStoreKit/PaymentQueueController.swift; sourceTree = "<group>"; };
+		DF48E107F8858D4135C4ECD24BC35C86 /* CircleProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.release.xcconfig; sourceTree = "<group>"; };
+		DF955CADF9CF10E9B2A566A1596F0881 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		EF339EB40DCDBB3A3D5E4EE9B7A65355 /* Pods-iStrologyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iStrologyUITests.modulemap"; sourceTree = "<group>"; };
+		F0DF96F29A9344A210794E12D627D7D8 /* Pods-iStrologyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iStrologyUITests-umbrella.h"; sourceTree = "<group>"; };
+		F4BEE07C3152EDA31290BCE4C8CF2969 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		F8529EF9C2932162CC7C5D7F1DBB5D68 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		F9947D27EDD848FACA1A9954CB2657FA /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		F999097E48336B9D09F1DF2451E1AD36 /* SwiftyStoreKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyStoreKit-umbrella.h"; sourceTree = "<group>"; };
+		F9D56673827E2BC3EA5E4AA4CC8F28B8 /* SwiftyStoreKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyStoreKit.modulemap; sourceTree = "<group>"; };
+		FCFDD07DFA26782A458CA0258A3BB8F6 /* InAppProductQueryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppProductQueryRequest.swift; path = SwiftyStoreKit/InAppProductQueryRequest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0488BF2012462883122C057425D32A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102AE89E49C261CD6E9712FEE8EF2698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0464BDCD6CE52FE613303A5558DE30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D50833BB78EFDA7B8B1D0C976FFE785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F46F3E71FB05AA64767702F85AC320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C0CC4C50064B6245D25DB28E546EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE8B385C42AB5938257FBEC6DF281CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8838634724D0AE38502C8D1BC302CEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D933CC30D81FDEC59CC44A125A4BABB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAC1D4EBD53A048346210536741DF13 /* CoreGraphics.framework in Frameworks */,
+				0AA33EBB857A5205F87C09CCB99EAC74 /* Foundation.framework in Frameworks */,
+				B52177FF72FDAC3EDB7195DE98F5501E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D839112DFC8E40A59479725E3A356D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB9B3651D1633C303BDB6F666F97774 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB886A1366156698687B101BEEEAF0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC655E17AC2CDA07F005293446E23B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6691D8CB3D493006A8661C7CFED31A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11C4BA11794F1623BFF5224F75EBBA57 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				CE6124A655B55FF4F947DC8C80748AE8 /* Frameworks */,
+				589182435A52FAD521B82347CCF6560F /* Support Files */,
+			);
+			name = OneSignal;
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		141D6184B9501BC15992A6E49355C965 /* Pods-iStrology-NotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				BBA78BAED60F9056283F5368539C53DA /* Pods-iStrology-NotificationExtension.modulemap */,
+				B0DA8EB51303B2EFEED69B4CA641ACDB /* Pods-iStrology-NotificationExtension-acknowledgements.markdown */,
+				18B607B7907E1665FA0079E59CC8DAB0 /* Pods-iStrology-NotificationExtension-acknowledgements.plist */,
+				8276A87C7496C15BA180ECD16F0DDE0B /* Pods-iStrology-NotificationExtension-dummy.m */,
+				AEA54F72E2B5798AAB7CFBA7874E0446 /* Pods-iStrology-NotificationExtension-Info.plist */,
+				01BFFD4EAED6C263C4CE72A9A250B1D2 /* Pods-iStrology-NotificationExtension-umbrella.h */,
+				BDB2CC60F6F4973347DE7F24CB75D785 /* Pods-iStrology-NotificationExtension.debug.xcconfig */,
+				BF3644EECBF302B0305FEAFCA702FC44 /* Pods-iStrology-NotificationExtension.release.xcconfig */,
+			);
+			name = "Pods-iStrology-NotificationExtension";
+			path = "Target Support Files/Pods-iStrology-NotificationExtension";
+			sourceTree = "<group>";
+		};
+		241E21EDCBDFC0115BA0A43FB58DF193 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D56673827E2BC3EA5E4AA4CC8F28B8 /* SwiftyStoreKit.modulemap */,
+				49DEBA93BC76DDECD76D875C1A8B7DBC /* SwiftyStoreKit-dummy.m */,
+				09A4FBA36ECB6573670E17E6789A5947 /* SwiftyStoreKit-Info.plist */,
+				180DD5D6FD70EB430249EFE5779D5104 /* SwiftyStoreKit-prefix.pch */,
+				F999097E48336B9D09F1DF2451E1AD36 /* SwiftyStoreKit-umbrella.h */,
+				18C7660B3D6ACF500B932A55CC65346B /* SwiftyStoreKit.debug.xcconfig */,
+				0ACF9A7B8B0BB029340D1A3EF425382B /* SwiftyStoreKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyStoreKit";
+			sourceTree = "<group>";
+		};
+		2BBEC2556218666AF6F74CE291CA208A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
+				28D2A157FF19B1B02D26F028B7EC1D32 /* Pods-iStrology */,
+				3AF12FAF3623B935D47F946F3EF62498 /* Pods-iStrology-NotificationExtension */,
+				D60F40171290FA9DD6FBF9E7B2F7985C /* Pods-iStrologyTests */,
+				DC48DE986289DAC360E2F90115E2062A /* Pods-iStrologyUITests */,
+				32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6691D8CB3D493006A8661C7CFED31A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CABB98090B02C131F86931CB9BE54B7A /* CoreGraphics.framework */,
+				CB342FF58CA5A5D1282C84E02280A34F /* Foundation.framework */,
+				51AB40693B18F443F75126966ED13E47 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4FBA4A9E4B5A0E6000F21B62DF9B1878 /* SwiftyStoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				876FF2F45E74AA4529E2F3B7D995677A /* AppleReceiptValidator.swift */,
+				96A858DD1CE7226624CA7C6DE4BAB391 /* CompleteTransactionsController.swift */,
+				FCFDD07DFA26782A458CA0258A3BB8F6 /* InAppProductQueryRequest.swift */,
+				954CB4D021554DDAFBE9EA8388BE0AD2 /* InAppReceipt.swift */,
+				892D3F63F8770770A7D2EDD381F84586 /* InAppReceiptRefreshRequest.swift */,
+				BA4DC28AD2FB78A5D84CCA70E6F59308 /* InAppReceiptVerificator.swift */,
+				0513EDF7EBC05167C66E225D88F02DE4 /* OS.swift */,
+				DCA6DB1A292C2133F831E2DAD95A8192 /* PaymentQueueController.swift */,
+				AE80C1E9DD0DAA4146B2E07CEBF941FB /* PaymentsController.swift */,
+				907180B5FEF7C687A640DF01DD3928E8 /* ProductsInfoController.swift */,
+				08F8555FCE0571D0B77A2FF0865B2DD3 /* RestorePurchasesController.swift */,
+				222AF4241AF5BD1202236D3444F51660 /* SKProduct+LocalizedPrice.swift */,
+				D092E41F467B0181E407AC1F442BCC06 /* SwiftyStoreKit.swift */,
+				8BD4AF204DCDF8AC0B22B3228E74FB12 /* SwiftyStoreKit+Types.swift */,
+				241E21EDCBDFC0115BA0A43FB58DF193 /* Support Files */,
+			);
+			name = SwiftyStoreKit;
+			path = SwiftyStoreKit;
+			sourceTree = "<group>";
+		};
+		566BE3356ECA9067FA0528392BC70406 /* Pods-iStrologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3856A760961603EE51C7D1F500CE55 /* Pods-iStrologyTests.modulemap */,
+				6082D4E1D777BA6A37131D954F3EBEC3 /* Pods-iStrologyTests-acknowledgements.markdown */,
+				234E546C0CEE7DDAFECD3EB3E88C8960 /* Pods-iStrologyTests-acknowledgements.plist */,
+				08AE86D3A9CBCE333B70EB4BFF051E94 /* Pods-iStrologyTests-dummy.m */,
+				44151C8665FE6D30E00ED998DD698AB2 /* Pods-iStrologyTests-Info.plist */,
+				C1E9D4C14F00BCF66270A10AFF271158 /* Pods-iStrologyTests-umbrella.h */,
+				C01367F706FE2E38022633EDB4ECCCCC /* Pods-iStrologyTests.debug.xcconfig */,
+				710D30446E957D0EB7BC2048D85D3B9B /* Pods-iStrologyTests.release.xcconfig */,
+			);
+			name = "Pods-iStrologyTests";
+			path = "Target Support Files/Pods-iStrologyTests";
+			sourceTree = "<group>";
+		};
+		589182435A52FAD521B82347CCF6560F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				640549BE82DB5C0FE2312A49568D19C9 /* OneSignal.debug.xcconfig */,
+				C17A755B18ACAEB0B502EB70DED1B38C /* OneSignal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OneSignal";
+			sourceTree = "<group>";
+		};
+		62B9DE0DA3771A6610DB94CC6FAEF452 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF81A36303F39154BF2CD570E9265E1C /* Alamofire */,
+				9B77488358244DDD382AE51BE54AE742 /* CircleProgressView */,
+				C5F28D96DCAAA47574F7DB29A087F25C /* MBProgressHUD */,
+				11C4BA11794F1623BFF5224F75EBBA57 /* OneSignal */,
+				4FBA4A9E4B5A0E6000F21B62DF9B1878 /* SwiftyStoreKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B77488358244DDD382AE51BE54AE742 /* CircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				71116A1C656A3D32B7AD3D34087D66B0 /* AppDelegate.swift */,
+				A18FDD57C93AEF5AC94529FAEF62E3F1 /* CircleProgressView.swift */,
+				014A09F208500575F2D3A7129F0D8C5C /* ViewController.swift */,
+				D1CD941ACF2CF00DB1A68782CC79CD1F /* Support Files */,
+			);
+			name = CircleProgressView;
+			path = CircleProgressView;
+			sourceTree = "<group>";
+		};
+		A88F71A1EFC038EF25B36BC2FF338D70 /* Pods-iStrologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF339EB40DCDBB3A3D5E4EE9B7A65355 /* Pods-iStrologyUITests.modulemap */,
+				D57F00C08D4D2743183E3ACF1923224F /* Pods-iStrologyUITests-acknowledgements.markdown */,
+				D04F0FC00390F601AB124F4D36404B50 /* Pods-iStrologyUITests-acknowledgements.plist */,
+				CA75675A45B63E2943A775C234538154 /* Pods-iStrologyUITests-dummy.m */,
+				3788466EB43DCA2C6E077F14E62D7975 /* Pods-iStrologyUITests-Info.plist */,
+				F0DF96F29A9344A210794E12D627D7D8 /* Pods-iStrologyUITests-umbrella.h */,
+				6C610781230B1F5B1061F20DD194A007 /* Pods-iStrologyUITests.debug.xcconfig */,
+				B42DD36999C776494C50402ED518E271 /* Pods-iStrologyUITests.release.xcconfig */,
+			);
+			name = "Pods-iStrologyUITests";
+			path = "Target Support Files/Pods-iStrologyUITests";
+			sourceTree = "<group>";
+		};
+		AF6520D3DDA2E8CD221E4957953B9249 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8359B9B7D32E145C04697CA92E78D7E /* Pods-iStrology */,
+				141D6184B9501BC15992A6E49355C965 /* Pods-iStrology-NotificationExtension */,
+				566BE3356ECA9067FA0528392BC70406 /* Pods-iStrologyTests */,
+				A88F71A1EFC038EF25B36BC2FF338D70 /* Pods-iStrologyUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5F28D96DCAAA47574F7DB29A087F25C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CFEA5FCC46C3AF65AA0A63C0918CC666 /* MBProgressHUD.h */,
+				9D668FF9F7F1648EBFE5CBA6F7A48678 /* MBProgressHUD.m */,
+				C6C73BE86D1908647A895745F6E662E3 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		C6C73BE86D1908647A895745F6E662E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7136AB1F413E8F5AEE49724DCFDEF86B /* MBProgressHUD.modulemap */,
+				9434AE50CFF002F75FE74AD592F94D5B /* MBProgressHUD-dummy.m */,
+				288FB6F43F57B701802211C742F00DDF /* MBProgressHUD-Info.plist */,
+				B669E4ECDDC054016C87A70D4BAC5199 /* MBProgressHUD-prefix.pch */,
+				5164D9B927682584AF2D8ECF9368279F /* MBProgressHUD-umbrella.h */,
+				23129CEF8DFA85DE3B1923510798AFBE /* MBProgressHUD.debug.xcconfig */,
+				D48A525259C3487B19629A617A56654D /* MBProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		CE6124A655B55FF4F947DC8C80748AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BB34D06163BAF1FD1E722114846ABB /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				62B9DE0DA3771A6610DB94CC6FAEF452 /* Pods */,
+				2BBEC2556218666AF6F74CE291CA208A /* Products */,
+				AF6520D3DDA2E8CD221E4957953B9249 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1CD941ACF2CF00DB1A68782CC79CD1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				075BD7B12F317FFC21BADA570E3B6C12 /* CircleProgressView.modulemap */,
+				13BE9717D9F644D548F5DE8BDEF0EB5F /* CircleProgressView-dummy.m */,
+				3A3A0BE616C805568A680D80C99A55AF /* CircleProgressView-Info.plist */,
+				5A4BF8E7663838384225D5A1E3D3E67B /* CircleProgressView-prefix.pch */,
+				19C28ACAE58C37ECAC00B7A3505F0ECE /* CircleProgressView-umbrella.h */,
+				AFEEC63CC35C6E6A437CDCAA9880220F /* CircleProgressView.debug.xcconfig */,
+				DF48E107F8858D4135C4ECD24BC35C86 /* CircleProgressView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressView";
+			sourceTree = "<group>";
+		};
+		D303CEEA6163E9E981109EA2B93554A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF955CADF9CF10E9B2A566A1596F0881 /* Alamofire.modulemap */,
+				C8BDA64122D85639843D794065201145 /* Alamofire-dummy.m */,
+				D301BB3E3035B1E53A549B0E118C7E2F /* Alamofire-Info.plist */,
+				A47791137B102284DB322C120A0A523B /* Alamofire-prefix.pch */,
+				BFA16235027B435885E5180E595A7A34 /* Alamofire-umbrella.h */,
+				871B766E1BB63D9D36F16152EC1B3462 /* Alamofire.debug.xcconfig */,
+				3859D194254556ADEC3EC127E38C8B1F /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		D8359B9B7D32E145C04697CA92E78D7E /* Pods-iStrology */ = {
+			isa = PBXGroup;
+			children = (
+				19E2AB90002D10B0FA51CF999FCD93F8 /* Pods-iStrology.modulemap */,
+				92C6420E2B8EE5C7FB50DF37EF8F4DB1 /* Pods-iStrology-acknowledgements.markdown */,
+				66784221074498FC7F3ED362F53E9AF4 /* Pods-iStrology-acknowledgements.plist */,
+				454DDE07D60AA5F396A714880B28BDD5 /* Pods-iStrology-dummy.m */,
+				89BD1231F1E31D422FA39BF714332DFE /* Pods-iStrology-frameworks.sh */,
+				09F57783D4BD2DD990E448B1967EF56D /* Pods-iStrology-Info.plist */,
+				519FB045C6194F307BC7C943FFFCA845 /* Pods-iStrology-umbrella.h */,
+				5E30DE5941FD19148C19677AAA9B4D75 /* Pods-iStrology.debug.xcconfig */,
+				4236844FD2DE4FF2C851640B97FB4249 /* Pods-iStrology.release.xcconfig */,
+			);
+			name = "Pods-iStrology";
+			path = "Target Support Files/Pods-iStrology";
+			sourceTree = "<group>";
+		};
+		DF81A36303F39154BF2CD570E9265E1C /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				41D27106D6EDFB78F827424D7D27F489 /* AFError.swift */,
+				1D62DFA5693CC58E7BDF568A55A8CD9B /* Alamofire.swift */,
+				D1A879BD8FA40834341031412C732FC9 /* DispatchQueue+Alamofire.swift */,
+				F4BEE07C3152EDA31290BCE4C8CF2969 /* MultipartFormData.swift */,
+				91F8026C464587AF1152559F88FA2354 /* NetworkReachabilityManager.swift */,
+				CBC32E6904D8337346A922AA74EB2E33 /* Notifications.swift */,
+				237DE50022BFD0DC9ED031061BB0C74D /* ParameterEncoding.swift */,
+				75BD5A520E5C09A83573D6D5FF3095DF /* Request.swift */,
+				F8529EF9C2932162CC7C5D7F1DBB5D68 /* Response.swift */,
+				36FD7B73910B7EA80430EE177FE90054 /* ResponseSerialization.swift */,
+				38AB496FC2A3EF1E242B86DFEB0EA74A /* Result.swift */,
+				DBF22AF31B38FB6F25403BA24CDB4E33 /* ServerTrustPolicy.swift */,
+				D4FD2AEE697D50876CCEEFA1533D45F8 /* SessionDelegate.swift */,
+				1BC500CBE974C5072E7F02360B97B104 /* SessionManager.swift */,
+				F9947D27EDD848FACA1A9954CB2657FA /* TaskDelegate.swift */,
+				C742BEAE4989E82571E7E47EC3A4CA7D /* Timeline.swift */,
+				655BE05D1EECADE1CFC4E1696307B1FE /* Validation.swift */,
+				D303CEEA6163E9E981109EA2B93554A2 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		070B2F0EEC65FB59C3E3D61EB5FE5007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109467F0815F6D20604B6F24DB0815D9 /* Pods-iStrology-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163883273A797CCD4D94CE01C65F3CE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D04013060B6EC7C4114C3B5CB6D538 /* Pods-iStrologyUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D4C6A406CFB37D08FFF58B1E63F735 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0A8C72F73B1045ADD25007B93195F6 /* SwiftyStoreKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D82C29ACD851E6EA219B34A73C961F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E941CADB3CDDEEDF8CE4EE4A4A05BB /* MBProgressHUD.h in Headers */,
+				5BAC1EF86D0E57E44E404B2796993561 /* MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DABE40D8284946A924A02B546257DE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146510540C8DAF109CC4BCCB0CA74A9 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E90D34135D3589A088AB7D7BCDFB4D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD75C3288D5EE558203850C2ED0EEB3C /* Pods-iStrology-NotificationExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE34D58653DFA8C83426CD547D531F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03457159F90920CE9C1C5A36AF7B00EA /* CircleProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63395230AEB9D966789AE5DF8F10FC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A967303296E88A4195A0592A4A049D2D /* Pods-iStrologyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B227256C2299FEEEEED89EC80D579A71 /* Build configuration list for PBXNativeTarget "CircleProgressView" */;
+			buildPhases = (
+				7BDE34D58653DFA8C83426CD547D531F /* Headers */,
+				73105FA9170001E11929292182C94614 /* Sources */,
+				D839112DFC8E40A59479725E3A356D39 /* Frameworks */,
+				5892D705615A058DB422BEA3819E9FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressView;
+			productName = CircleProgressView;
+			productReference = 4D250324E85E59019E3CE77667BC1DE5 /* CircleProgressView */;
+			productType = "com.apple.product-type.framework";
+		};
+		814F3A5D9C41867230C7504A14624D77 /* Pods-iStrologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68914C901425C18A5DD5B5A2A12E59A /* Build configuration list for PBXNativeTarget "Pods-iStrologyUITests" */;
+			buildPhases = (
+				163883273A797CCD4D94CE01C65F3CE0 /* Headers */,
+				DB1354387506922B477791ED791BFACD /* Sources */,
+				DB886A1366156698687B101BEEEAF0D2 /* Frameworks */,
+				698C3DAAC85910AD42E2893FB3F1CA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92971937EA0C7480328B2DC5E54FC241 /* PBXTargetDependency */,
+			);
+			name = "Pods-iStrologyUITests";
+			productName = Pods_iStrologyUITests;
+			productReference = DC48DE986289DAC360E2F90115E2062A /* Pods-iStrologyUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				5D82C29ACD851E6EA219B34A73C961F5 /* Headers */,
+				7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */,
+				D6DC8F0C2894774845C1DD2E7CA07B0C /* Frameworks */,
+				C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA3E15571FBCDA6C3F9C39DAF36CF309 /* Pods-iStrology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7F693DADCCD0566E63C5BE816A9FC3 /* Build configuration list for PBXNativeTarget "Pods-iStrology" */;
+			buildPhases = (
+				070B2F0EEC65FB59C3E3D61EB5FE5007 /* Headers */,
+				6E05A3F7B70ABA670625CC1BDD00CB3B /* Sources */,
+				8838634724D0AE38502C8D1BC302CEC1 /* Frameworks */,
+				918EF72BFA42B93D7A7E1FEFEC496BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA863DF3B83CCA2A2B6F61D20344E0FF /* PBXTargetDependency */,
+				46BD0FE1565F62A8C7285E5DD4FE1AA1 /* PBXTargetDependency */,
+				425EFF06A61D9669174C939EEC1B7F53 /* PBXTargetDependency */,
+				E0BA12DFF4D29D035FE6201A0ABA23EC /* PBXTargetDependency */,
+				6F8C44E9CD49882E8EE389C00CFBDD9F /* PBXTargetDependency */,
+			);
+			name = "Pods-iStrology";
+			productName = Pods_iStrology;
+			productReference = 28D2A157FF19B1B02D26F028B7EC1D32 /* Pods-iStrology */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1BB0782396AF4D91F0CBFFC67469F3F /* Pods-iStrology-NotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE55E9C0552198DB927C5B701A1FE88 /* Build configuration list for PBXNativeTarget "Pods-iStrology-NotificationExtension" */;
+			buildPhases = (
+				5E90D34135D3589A088AB7D7BCDFB4D9 /* Headers */,
+				B0DE7B4DF79191712DE6E683E82DD190 /* Sources */,
+				0488BF2012462883122C057425D32A7E /* Frameworks */,
+				FD5711E48EB9069B276B7E780E5291C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C28CA9FDDF4C1107F4269373C71887D /* PBXTargetDependency */,
+				DC6F10C49D845AECAF2209691C4D3662 /* PBXTargetDependency */,
+				CC16D51C7E976B8B95D5326D999ABE1F /* PBXTargetDependency */,
+				B18CDFA5C4970F06E4204D9E79F8B31D /* PBXTargetDependency */,
+				9AA3E7043BD69B317BDD5AC1A0C7B421 /* PBXTargetDependency */,
+			);
+			name = "Pods-iStrology-NotificationExtension";
+			productName = Pods_iStrology_NotificationExtension;
+			productReference = 3AF12FAF3623B935D47F946F3EF62498 /* Pods-iStrology-NotificationExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				5DABE40D8284946A924A02B546257DE2 /* Headers */,
+				91DE88C3249026C72068864CF85B8193 /* Sources */,
+				1FDEBC1279186C4DE344C5D2CCE81B3D /* Frameworks */,
+				C2B76647EA315A3658A600739CC6D453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9BA4F7F848CDCE652222D78FF85A1C0 /* Pods-iStrologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01DCC0B390655570905090E9C7476461 /* Build configuration list for PBXNativeTarget "Pods-iStrologyTests" */;
+			buildPhases = (
+				F63395230AEB9D966789AE5DF8F10FC5 /* Headers */,
+				98115EAE8EFAF7BF46714F45258047B3 /* Sources */,
+				78C0CC4C50064B6245D25DB28E546EED /* Frameworks */,
+				4345F870F3F72A6ECFF7B74C980E3B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373C506749D55C6174DDAC3EF7F4B69F /* PBXTargetDependency */,
+			);
+			name = "Pods-iStrologyTests";
+			productName = Pods_iStrologyTests;
+			productReference = D60F40171290FA9DD6FBF9E7B2F7985C /* Pods-iStrologyTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3540E455DCC3AF89D49254C1D77710 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */;
+			buildPhases = (
+				45D4C6A406CFB37D08FFF58B1E63F735 /* Headers */,
+				B0EC4131BC1E3B5C0887D69C80A48B35 /* Sources */,
+				6D50833BB78EFDA7B8B1D0C976FFE785 /* Frameworks */,
+				DA459E95ED6EA070AA7B6F5CF58A7D12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyStoreKit;
+			productName = SwiftyStoreKit;
+			productReference = 32B68D5B8C0127052BE81786F59B46F6 /* SwiftyStoreKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2BBEC2556218666AF6F74CE291CA208A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
+				210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */,
+				BA3E15571FBCDA6C3F9C39DAF36CF309 /* Pods-iStrology */,
+				D1BB0782396AF4D91F0CBFFC67469F3F /* Pods-iStrology-NotificationExtension */,
+				F9BA4F7F848CDCE652222D78FF85A1C0 /* Pods-iStrologyTests */,
+				814F3A5D9C41867230C7504A14624D77 /* Pods-iStrologyUITests */,
+				FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4345F870F3F72A6ECFF7B74C980E3B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5892D705615A058DB422BEA3819E9FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		698C3DAAC85910AD42E2893FB3F1CA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918EF72BFA42B93D7A7E1FEFEC496BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E0F7D28F4D633128D0F53BEAE34D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B76647EA315A3658A600739CC6D453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA459E95ED6EA070AA7B6F5CF58A7D12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5711E48EB9069B276B7E780E5291C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E05A3F7B70ABA670625CC1BDD00CB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97245618EEBC97E6D0F91F7FFEFB78F8 /* Pods-iStrology-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73105FA9170001E11929292182C94614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C078BC80802C909FA7C84E20E9561CF1 /* AppDelegate.swift in Sources */,
+				4AAD229760BF932C5551F38A5D80C94C /* CircleProgressView.swift in Sources */,
+				CBB48A7ECEE753D02835F1CF14E4A9A1 /* CircleProgressView-dummy.m in Sources */,
+				CE509783B36EFD1F32B04E1E69D0F31A /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E957D4020E4C4BC633BF50F7F51E5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0097064E7F7D3F413161738CC5C25EEC /* MBProgressHUD.m in Sources */,
+				58C91B4AB36E6B16421106CA634C58EF /* MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DE88C3249026C72068864CF85B8193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E42B43904F2F22CA3A8BBD0155D9A2 /* AFError.swift in Sources */,
+				70EA6F068498CEC1B273D6BB1E74EB4E /* Alamofire.swift in Sources */,
+				C27C72B2D755F3A7B2D97089CA75146F /* Alamofire-dummy.m in Sources */,
+				F93AEAF3659818E2308E0E5C70B66423 /* DispatchQueue+Alamofire.swift in Sources */,
+				6DF154F51210D4C446AA021F2DBA34A4 /* MultipartFormData.swift in Sources */,
+				5CECD168465CF59B489253695D3FB51F /* NetworkReachabilityManager.swift in Sources */,
+				537D7452E6C8C82D9C1908EA29706E35 /* Notifications.swift in Sources */,
+				F5C92DC8E274C4FC541267A97575BC05 /* ParameterEncoding.swift in Sources */,
+				D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */,
+				9BCBBFE03318F5DD172F9E1F3100F67B /* Response.swift in Sources */,
+				43C3C17BFDFD71F45C5A7AFB0C0BEF45 /* ResponseSerialization.swift in Sources */,
+				D46CB5AF7BE345C5D27ABF9DCF692881 /* Result.swift in Sources */,
+				3DE8AA12C52787A0BA570717BB27AAB0 /* ServerTrustPolicy.swift in Sources */,
+				85379CCF081FC9C36F082E71D2DF4D2F /* SessionDelegate.swift in Sources */,
+				8023EECE8437F0311A065A9C2F420E2E /* SessionManager.swift in Sources */,
+				119B37D7E7D3A59C6685FC0EFEE881CE /* TaskDelegate.swift in Sources */,
+				2119BBBDD76C9B182007C9E8D3BD8DDA /* Timeline.swift in Sources */,
+				4C301CCA81AAFB4453B6B827F846E0AC /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98115EAE8EFAF7BF46714F45258047B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83C6F4B65517D50C39D1B4F142B31DC /* Pods-iStrologyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0DE7B4DF79191712DE6E683E82DD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335BF966F9C1E53767DC12FBAFB4FC9D /* Pods-iStrology-NotificationExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EC4131BC1E3B5C0887D69C80A48B35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA3A95AC3B2A4D9FB36F9DDA3652306 /* AppleReceiptValidator.swift in Sources */,
+				36B3BEFB765D490CE5E8B140FC85C3C5 /* CompleteTransactionsController.swift in Sources */,
+				847D1FEC4A49805DE24A976F2F9A083E /* InAppProductQueryRequest.swift in Sources */,
+				8ED0E02C02266CD95B4EDC31E71C7329 /* InAppReceipt.swift in Sources */,
+				5268AFA339208EF75CE21A39E9C8B88D /* InAppReceiptRefreshRequest.swift in Sources */,
+				CCDEAE3D8171D800F35C367870CD29A0 /* InAppReceiptVerificator.swift in Sources */,
+				DF1BE048FB485B80B6148629E2149676 /* OS.swift in Sources */,
+				5FFC3C0541F165CD599AAE2D181E27C8 /* PaymentQueueController.swift in Sources */,
+				E7710C7A69A82854383E4BB80C2E6B03 /* PaymentsController.swift in Sources */,
+				3ED42AF7ECDCA0098008C03E518584E9 /* ProductsInfoController.swift in Sources */,
+				395FDD89B2909C11AD52E0A3F659C7BE /* RestorePurchasesController.swift in Sources */,
+				13277BD0E9FC3EFDF1145AF4534CBB21 /* SKProduct+LocalizedPrice.swift in Sources */,
+				661DE8075564A8DA798D04183A113699 /* SwiftyStoreKit.swift in Sources */,
+				D8D3B94498B315CE8090F2C1F6F3932B /* SwiftyStoreKit+Types.swift in Sources */,
+				813F1ED13D12ED4994B174D5B0A66272 /* SwiftyStoreKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1354387506922B477791ED791BFACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62CEF072233B3972923D3A9AA2EC451 /* Pods-iStrologyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373C506749D55C6174DDAC3EF7F4B69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iStrology";
+			target = BA3E15571FBCDA6C3F9C39DAF36CF309 /* Pods-iStrology */;
+			targetProxy = 474EB73EA21715F00E5ACCE798B397EB /* PBXContainerItemProxy */;
+		};
+		425EFF06A61D9669174C939EEC1B7F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 5E2437D9E23C5A361C545C61D285E610 /* PBXContainerItemProxy */;
+		};
+		46BD0FE1565F62A8C7285E5DD4FE1AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */;
+			targetProxy = F7B76EC8607404C0E2425E9A15133BA6 /* PBXContainerItemProxy */;
+		};
+		6F8C44E9CD49882E8EE389C00CFBDD9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyStoreKit;
+			target = FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */;
+			targetProxy = 4B3B66D5CB57C0EFC342F1585EC56896 /* PBXContainerItemProxy */;
+		};
+		92971937EA0C7480328B2DC5E54FC241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iStrology";
+			target = BA3E15571FBCDA6C3F9C39DAF36CF309 /* Pods-iStrology */;
+			targetProxy = 7A44D718BF1237BC600D1306500970F4 /* PBXContainerItemProxy */;
+		};
+		9AA3E7043BD69B317BDD5AC1A0C7B421 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyStoreKit;
+			target = FCD4F1901DD86FEB184BFDD6673F4A7B /* SwiftyStoreKit */;
+			targetProxy = E35C02C16286574C9B22A8DB29C0A48E /* PBXContainerItemProxy */;
+		};
+		9C28CA9FDDF4C1107F4269373C71887D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8402426BA0BDB3E81844BC8B669A2197 /* PBXContainerItemProxy */;
+		};
+		B18CDFA5C4970F06E4204D9E79F8B31D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneSignal;
+			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
+			targetProxy = 234008D205C42AF5EF137E1AF9A20934 /* PBXContainerItemProxy */;
+		};
+		CC16D51C7E976B8B95D5326D999ABE1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = BD528CB0E6543AEC9ECB6492923CEBE6 /* PBXContainerItemProxy */;
+		};
+		DA863DF3B83CCA2A2B6F61D20344E0FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8A724D1164DE0E5BF9FB02B43E8DEA81 /* PBXContainerItemProxy */;
+		};
+		DC6F10C49D845AECAF2209691C4D3662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 4949F2E81928B23F0DBD7CBD4C7FAD08 /* CircleProgressView */;
+			targetProxy = 35A7C78CC8E4B1EAA4CB9E6ECE15B48C /* PBXContainerItemProxy */;
+		};
+		E0BA12DFF4D29D035FE6201A0ABA23EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneSignal;
+			target = 210EB05CEC7AD9C148F90F752DE74C48 /* OneSignal */;
+			targetProxy = 26B0722E941C2A0D8DFF1B435212126A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A63D0DE4AF9DEEF020D3B0A3FD0654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF48E107F8858D4135C4ECD24BC35C86 /* CircleProgressView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/CircleProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19AA91E56DED5AEB40EA5AE0FC798321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C7660B3D6ACF500B932A55CC65346B /* SwiftyStoreKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyStoreKit;
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		224196C0CA58347BABD5CD6CE880B57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3859D194254556ADEC3EC127E38C8B1F /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2705B82FAD3E374C3BF6B225CAFAFDC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48A525259C3487B19629A617A56654D /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F85FD60FCD2819C096470B5073C7DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23129CEF8DFA85DE3B1923510798AFBE /* MBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38E354206E65DD7835F45A23060FEC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01367F706FE2E38022633EDB4ECCCCC /* Pods-iStrologyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrologyTests/Pods-iStrologyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrologyTests/Pods-iStrologyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39EEA60EBE149E7560D3853E979A37C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640549BE82DB5C0FE2312A49568D19C9 /* OneSignal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4320D4A608B488806D3C8177EEF0011A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710D30446E957D0EB7BC2048D85D3B9B /* Pods-iStrologyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrologyTests/Pods-iStrologyTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrologyTests/Pods-iStrologyTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CBA9729BF6A12DE7130523035BA30C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C610781230B1F5B1061F20DD194A007 /* Pods-iStrologyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrologyUITests/Pods-iStrologyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrologyUITests/Pods-iStrologyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75D1F27C3D87C4D6832CF0744C9F1594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACF9A7B8B0BB029340D1A3EF425382B /* SwiftyStoreKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyStoreKit/SwiftyStoreKit.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyStoreKit;
+				PRODUCT_NAME = SwiftyStoreKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CCEB89702FE5D0010BFD5C37193EA27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB2CC60F6F4973347DE7F24CB75D785 /* Pods-iStrology-NotificationExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrology-NotificationExtension/Pods-iStrology-NotificationExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrology-NotificationExtension/Pods-iStrology-NotificationExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		976C75D073DA558A73389DC343BE55DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42DD36999C776494C50402ED518E271 /* Pods-iStrologyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrologyUITests/Pods-iStrologyUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrologyUITests/Pods-iStrologyUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB6529BDF81C56A4103384C937F8CB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEEC63CC35C6E6A437CDCAA9880220F /* CircleProgressView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/CircleProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA40FFD7E737EDD83DDA4EF537376A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3644EECBF302B0305FEAFCA702FC44 /* Pods-iStrology-NotificationExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrology-NotificationExtension/Pods-iStrology-NotificationExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrology-NotificationExtension/Pods-iStrology-NotificationExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D68AB92F0CDFB81247A941666FAFA6B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4236844FD2DE4FF2C851640B97FB4249 /* Pods-iStrology.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrology/Pods-iStrology-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrology/Pods-iStrology.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5C74AE35C47983A357B223172603025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17A755B18ACAEB0B502EB70DED1B38C /* OneSignal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA95FCCC6F079C7AD88FAB75837BB8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871B766E1BB63D9D36F16152EC1B3462 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEEC22B9EC41229F6556EA25CCB529E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E30DE5941FD19148C19677AAA9B4D75 /* Pods-iStrology.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iStrology/Pods-iStrology-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iStrology/Pods-iStrology.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01DCC0B390655570905090E9C7476461 /* Build configuration list for PBXNativeTarget "Pods-iStrologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E354206E65DD7835F45A23060FEC77 /* Debug */,
+				4320D4A608B488806D3C8177EEF0011A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A5A4D585F2B2C7D977A4F1E5213117 /* Build configuration list for PBXAggregateTarget "OneSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EEA60EBE149E7560D3853E979A37C2 /* Debug */,
+				F5C74AE35C47983A357B223172603025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3540E455DCC3AF89D49254C1D77710 /* Build configuration list for PBXNativeTarget "SwiftyStoreKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AA91E56DED5AEB40EA5AE0FC798321 /* Debug */,
+				75D1F27C3D87C4D6832CF0744C9F1594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887CAE7F79D14F7AF2714DC8BABA9E38 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA95FCCC6F079C7AD88FAB75837BB8E6 /* Debug */,
+				224196C0CA58347BABD5CD6CE880B57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE55E9C0552198DB927C5B701A1FE88 /* Build configuration list for PBXNativeTarget "Pods-iStrology-NotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCEB89702FE5D0010BFD5C37193EA27 /* Debug */,
+				BA40FFD7E737EDD83DDA4EF537376A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68914C901425C18A5DD5B5A2A12E59A /* Build configuration list for PBXNativeTarget "Pods-iStrologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBA9729BF6A12DE7130523035BA30C7 /* Debug */,
+				976C75D073DA558A73389DC343BE55DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BD2681E97C00DCC2EF91B0EBA76110 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F85FD60FCD2819C096470B5073C7DFD /* Debug */,
+				2705B82FAD3E374C3BF6B225CAFAFDC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B227256C2299FEEEEED89EC80D579A71 /* Build configuration list for PBXNativeTarget "CircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6529BDF81C56A4103384C937F8CB53 /* Debug */,
+				03A63D0DE4AF9DEEF020D3B0A3FD0654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7F693DADCCD0566E63C5BE816A9FC3 /* Build configuration list for PBXNativeTarget "Pods-iStrology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEC22B9EC41229F6556EA25CCB529E8 /* Debug */,
+				D68AB92F0CDFB81247A941666FAFA6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_iStrologyUITests {
+  umbrella header "Pods-iStrologyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

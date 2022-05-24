@@ -1,0 +1,6 @@
+framework module Pods_iStrology_NotificationExtension {
+  umbrella header "Pods-iStrology-NotificationExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
